@@ -1,5 +1,5 @@
 
-import { Twitch, Youtube, Twitter, Instagram } from "lucide-react";
+import { Twitch, Youtube, Discord, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -32,13 +32,13 @@ const Footer = () => {
                 <Youtube className="h-6 w-6" />
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://discord.gg/cszAkMrfZp" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-foreground/70 hover:text-blue-400 transition-colors"
-                aria-label="Twitter"
+                className="text-foreground/70 hover:text-indigo-500 transition-colors"
+                aria-label="Discord"
               >
-                <Twitter className="h-6 w-6" />
+                <Discord className="h-6 w-6" />
               </a>
               <a 
                 href="https://instagram.com" 
