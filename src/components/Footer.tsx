@@ -1,5 +1,5 @@
 
-import { Twitch, Youtube, Discord, Instagram } from "lucide-react";
+import { Twitch, Youtube, MessageSquare, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -38,7 +38,7 @@ const Footer = () => {
                 className="text-foreground/70 hover:text-indigo-500 transition-colors"
                 aria-label="Discord"
               >
-                <Discord className="h-6 w-6" />
+                <MessageSquare className="h-6 w-6" />
               </a>
               <a 
                 href="https://instagram.com" 
