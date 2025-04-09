@@ -20,7 +20,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://twitch.tv" 
+                href="https://twitch.tv/rqze" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -102,7 +102,7 @@ const Index = () => {
           </div>
           <div className="mt-8 text-center">
             <a 
-              href="https://twitch.tv" 
+              href="https://twitch.tv/rqze" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -123,7 +123,7 @@ const Index = () => {
             Folge mir auf Twitch, um benachrichtigt zu werden, wenn ich live gehe, und tritt unserer tollen Community bei!
           </p>
           <a 
-            href="https://twitch.tv" 
+            href="https://twitch.tv/rqze" 
             target="_blank" 
             rel="noopener noreferrer"
           >

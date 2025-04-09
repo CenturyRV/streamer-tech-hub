@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-end">
             <div className="flex space-x-4 mb-4">
               <a 
-                href="https://twitch.tv" 
+                href="https://twitch.tv/rqze" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-twitch transition-colors"

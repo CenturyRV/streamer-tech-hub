@@ -32,7 +32,7 @@ const Navbar = () => {
               Setup
             </Link>
             <a 
-              href="https://twitch.tv" 
+              href="https://twitch.tv/rqze" 
               target="_blank" 
               rel="noopener noreferrer"
               className="ml-2"
@@ -79,7 +79,7 @@ const Navbar = () => {
               Setup
             </Link>
             <a 
-              href="https://twitch.tv" 
+              href="https://twitch.tv/rqze" 
               target="_blank" 
               rel="noopener noreferrer"
               className="block"
