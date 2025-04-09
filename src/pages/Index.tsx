@@ -66,9 +66,9 @@ const Index = () => {
                   <path d="M4.3 7.7a8 8 0 0 0 0 8.6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Gaming & Technik</h3>
+              <h3 className="text-xl font-bold mb-2">Gaming</h3>
               <p className="text-muted-foreground">
-                Entdecke das Neueste in Gaming-Hardware und Technologie.
+                Entdecke das Neueste in Gaming und Spielewelt.
               </p>
             </div>
             
