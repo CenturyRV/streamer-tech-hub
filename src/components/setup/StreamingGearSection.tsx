@@ -10,7 +10,7 @@ const StreamingGearSection: React.FC = () => {
     {
       title: "Mikrofon",
       description: "Shure SM7B",
-      imageSrc: "https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Mic className="h-8 w-8 text-twitch" />
     },
     {
@@ -22,7 +22,7 @@ const StreamingGearSection: React.FC = () => {
     {
       title: "Mixer",
       description: "TC Helicon GoXLR",
-      imageSrc: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1524046960467-28e47dfa9e5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-twitch">
         <path d="M2 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4" />
         <rect x="2" y="10" width="8" height="8" rx="2" />
@@ -35,7 +35,7 @@ const StreamingGearSection: React.FC = () => {
     {
       title: "Mikrofonhalterung",
       description: "LogiLink AA0127",
-      imageSrc: "https://images.unsplash.com/photo-1598335624134-5bceb5de202b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1621619076104-18dd04880836?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-twitch">
         <path d="M12 2v8" />
         <path d="m4.93 10.93 1.41 1.41" />

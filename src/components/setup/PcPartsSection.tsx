@@ -37,37 +37,37 @@ const PcPartsSection: React.FC = () => {
     {
       title: "RAM",
       description: "64GB (4x16GB) Corsair Vengeance RGB DDR5",
-      imageSrc: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1562976540-1502c2145186?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <MemoryStick className="h-8 w-8 text-twitch" />
     },
     {
       title: "Speicher",
       description: "4TB Crucial P3 Plus M.2",
-      imageSrc: "https://images.unsplash.com/photo-1600348712459-d188d958b179?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1597762470488-3877b1f538c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <HardDrive className="h-8 w-8 text-twitch" />
     },
     {
       title: "CPU Kühler",
       description: "Corsair iCUE H150i",
-      imageSrc: "https://images.unsplash.com/photo-1624733713742-f9c826a4e4a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1587202372628-9a5cc7f027ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Fan className="h-8 w-8 text-twitch" />
     },
     {
       title: "Gehäuse",
       description: "Lian Li",
-      imageSrc: "https://images.unsplash.com/photo-1587202372866-9e0392a533da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1587202372562-9e936ef59ca2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Box className="h-8 w-8 text-twitch" />
     },
     {
       title: "Netzteil",
       description: "1000 Watt Asus ROG-STRIX-1000P-GAMING",
-      imageSrc: "https://images.unsplash.com/photo-1600348248547-74d75c0838bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1587202372821-38a1d8952dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Power className="h-8 w-8 text-twitch" />
     },
     {
       title: "Fans",
       description: "Corsair iCUE QL120 RGB x9",
-      imageSrc: "https://images.unsplash.com/photo-1587202372583-49314e68370f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1636068463395-0ff30e7b8faf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Fan className="h-8 w-8 text-twitch" />
     }
   ];
