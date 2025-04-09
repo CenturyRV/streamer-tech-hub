@@ -31,9 +31,6 @@ const Navbar = () => {
             <Link to="/setup" className="text-foreground/80 hover:text-foreground transition-colors">
               Setup
             </Link>
-            <Link to="/schedule" className="text-foreground/80 hover:text-foreground transition-colors">
-              Zeitplan
-            </Link>
             <a 
               href="https://twitch.tv" 
               target="_blank" 
@@ -80,13 +77,6 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               Setup
-            </Link>
-            <Link 
-              to="/schedule" 
-              className="block text-foreground/80 hover:text-foreground py-2 transition-colors"
-              onClick={toggleMenu}
-            >
-              Zeitplan
             </Link>
             <a 
               href="https://twitch.tv" 

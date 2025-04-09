@@ -1,7 +1,6 @@
-
 import Layout from "@/components/Layout";
 import PcPartCard from "@/components/PcPartCard";
-import { Cpu, Monitor, HardDrive, Memory, Fan, Box, Power, Mic, Camera, Headphones, Keyboard, Mouse } from "lucide-react";
+import { Cpu, Monitor, HardDrive, MemoryStick, Fan, Box, Power, Mic, Camera, Headphones, Keyboard, Mouse } from "lucide-react";
 
 const Setup = () => {
   // Sample PC parts data with improved images and icons
@@ -37,7 +36,7 @@ const Setup = () => {
       title: "RAM",
       description: "32GB (4x8GB) Corsair Vengeance RGB Pro 3600MHz",
       imageSrc: "https://images.unsplash.com/photo-1562976540-1502c2145186?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      icon: <Memory className="h-8 w-8 text-twitch" />
+      icon: <MemoryStick className="h-8 w-8 text-twitch" />
     },
     {
       title: "Speicher",
