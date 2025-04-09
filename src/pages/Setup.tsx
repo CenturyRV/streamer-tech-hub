@@ -1,3 +1,4 @@
+
 import Layout from "@/components/Layout";
 import PcPartCard from "@/components/PcPartCard";
 import { Cpu, Monitor, HardDrive, MemoryStick, Fan, Box, Power, Mic, Camera, Headphones, Keyboard, Mouse } from "lucide-react";
@@ -207,21 +208,6 @@ const Setup = () => {
                   />
                 ))}
               </div>
-            </div>
-            
-            {/* Setup Image */}
-            <div className="mt-16">
-              <h2 className="text-2xl font-bold mb-6">Meine Streaming-Umgebung</h2>
-              <div className="aspect-video rounded-lg overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1596443686812-2f45229eebc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                  alt="Komplettes Setup" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <p className="text-muted-foreground mt-4 text-center">
-                Mein komplettes Streaming-Setup - hier passiert der ganze Zauber!
-              </p>
             </div>
           </div>
         </div>

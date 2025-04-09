@@ -51,7 +51,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">Live-Streaming</h3>
               <p className="text-muted-foreground">
-                Regelmäßige Streams mit den neuesten Spielen und ansprechenden Inhalten.
+                Aktive GTA Roleplay Streams, Valorant Matches und viele andere spannende Games für euch!
               </p>
             </div>
             
