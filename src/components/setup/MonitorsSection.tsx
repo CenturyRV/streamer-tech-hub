@@ -10,25 +10,25 @@ const MonitorsSection: React.FC = () => {
     {
       title: "Monitor 1",
       description: "MSI Optix G241 144hz | 24 Zoll",
-      imageSrc: "https://asset.msi.com/resize/image/global/product/product_16099774086233ca3057cb04cc7d3cee9e6dfa7a8c.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+      imageSrc: "https://storage-asset.msi.com/global/picture/image/feature/monitor/Optix-G241/msi-optix-g241-gaming-monitor-wallpaper.jpg",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 2",
       description: "BenQ ZOWIE 144hz | 24 Zoll",
-      imageSrc: "https://www.benq.com/content/dam/b2c/en/monitors/zowie/xl2411k/gallery/xl2411k-g1-side.jpg",
+      imageSrc: "https://www.benq.com/content/dam/b2c/en/monitors/zowie/e-sports/xl-k-series/xl2411k/gallery/xl2411k-center1.png",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 3",
       description: "Asus VS248HR 60hz | 24 Zoll",
-      imageSrc: "https://dlcdnwebimgs.asus.com/gain/E77577E4-9B29-40B7-B0F6-C45DB05B9243/w717/h525",
+      imageSrc: "https://dlcdnwebimgs.asus.com/files/media/9e60bdc3-98a9-429f-9b0b-c8bfd9b9b49d/v1/websites/global/products/9SBm6lFaKA8XbHc5/v1/images/vs248.png",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 4",
       description: "BenQ GW2480 60hz | 24 Zoll",
-      imageSrc: "https://www.benq.com/content/dam/b2c/en/monitors/gw/gw2480/product-gallery/GW2480-65-F-B-02.jpg",
+      imageSrc: "https://www.benq.com/content/dam/b2c/en/monitors/gw/gw2480/images/gw2480-img1.jpg",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     }
   ];
