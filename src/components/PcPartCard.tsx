@@ -31,7 +31,14 @@ const PcPartCard = ({ title, description, imageSrc, icon, className }: PcPartCar
         </div>
       )}
       <div className="p-4">
-        <h3 className="text-lg font-semibold">{title}</h3>
+        <div className="flex items-center gap-2">
+          {!imageSrc && icon && (
+            <div className="p-2 bg-muted rounded-full">
+              {icon}
+            </div>
+          )}
+          <h3 className="text-lg font-semibold">{title}</h3>
+        </div>
         <p className="text-muted-foreground mt-2 text-sm">{description}</p>
       </div>
     </div>
