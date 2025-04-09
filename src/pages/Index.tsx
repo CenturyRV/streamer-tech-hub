@@ -13,10 +13,10 @@ const Index = () => {
         <div className="container mx-auto px-4 relative">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Welcome to my <span className="text-gradient">Streaming</span> Hub
+              Willkommen auf meiner <span className="text-gradient">Streaming</span> Seite
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Join me on my gaming journey as I stream the latest titles and interact with an amazing community.
+              Begleite mich auf meiner Gaming-Reise, während ich die neuesten Spiele streame und mit einer fantastischen Community interagiere.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
@@ -26,12 +26,12 @@ const Index = () => {
               >
                 <Button size="lg" className="bg-twitch hover:bg-twitch-dark">
                   <Twitch className="mr-2 h-5 w-5" />
-                  Watch Live
+                  Live zusehen
                 </Button>
               </a>
               <Link to="/about">
                 <Button size="lg" variant="outline">
-                  About Me
+                  Über mich
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
@@ -43,15 +43,15 @@ const Index = () => {
       {/* Featured Content */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">What I Do</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Was ich mache</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-card rounded-lg p-6 text-center border border-border card-hover">
               <div className="w-16 h-16 bg-twitch/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Twitch className="h-8 w-8 text-twitch" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Live Streaming</h3>
+              <h3 className="text-xl font-bold mb-2">Live-Streaming</h3>
               <p className="text-muted-foreground">
-                Regular streams featuring the latest games and engaging content.
+                Regelmäßige Streams mit den neuesten Spielen und ansprechenden Inhalten.
               </p>
             </div>
             
@@ -66,9 +66,9 @@ const Index = () => {
                   <path d="M4.3 7.7a8 8 0 0 0 0 8.6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Gaming & Tech</h3>
+              <h3 className="text-xl font-bold mb-2">Gaming & Technik</h3>
               <p className="text-muted-foreground">
-                Exploring the latest in gaming hardware and technology.
+                Entdecke das Neueste in Gaming-Hardware und Technologie.
               </p>
             </div>
             
@@ -84,7 +84,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">Community</h3>
               <p className="text-muted-foreground">
-                Building a friendly and inclusive community of gamers.
+                Aufbau einer freundlichen und inklusiven Gemeinschaft von Gamern.
               </p>
             </div>
           </div>
@@ -94,10 +94,10 @@ const Index = () => {
       {/* Latest Streams */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">Latest Streams</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Neueste Streams</h2>
           <div className="aspect-video w-full max-w-4xl mx-auto bg-muted rounded-lg overflow-hidden">
             <div className="w-full h-full flex items-center justify-center">
-              <p className="text-muted-foreground">Twitch stream embed would go here</p>
+              <p className="text-muted-foreground">Hier wäre ein Twitch-Stream eingebunden</p>
             </div>
           </div>
           <div className="mt-8 text-center">
@@ -107,7 +107,7 @@ const Index = () => {
               rel="noopener noreferrer"
             >
               <Button variant="outline">
-                View More Streams
+                Mehr Streams ansehen
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </a>
@@ -118,9 +118,9 @@ const Index = () => {
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-r from-twitch/10 to-twitch-dark/10">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Join the Stream?</h2>
+          <h2 className="text-3xl font-bold mb-4">Bereit, dem Stream beizutreten?</h2>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Follow me on Twitch to get notified when I go live and join our awesome community!
+            Folge mir auf Twitch, um benachrichtigt zu werden, wenn ich live gehe, und tritt unserer tollen Community bei!
           </p>
           <a 
             href="https://twitch.tv" 
@@ -129,7 +129,7 @@ const Index = () => {
           >
             <Button size="lg" className="bg-twitch hover:bg-twitch-dark">
               <Twitch className="mr-2 h-5 w-5" />
-              Follow on Twitch
+              Auf Twitch folgen
             </Button>
           </a>
         </div>

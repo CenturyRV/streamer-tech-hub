@@ -8,38 +8,38 @@ const Schedule = () => {
   // Sample schedule data - replace with your actual schedule
   const scheduleItems = [
     {
-      day: "Monday",
-      time: "8:00 PM - 11:00 PM",
-      title: "FPS Monday: Valorant/CS:GO",
-      description: "Starting the week with competitive FPS action!",
+      day: "Montag",
+      time: "20:00 - 23:00 Uhr",
+      title: "FPS Montag: Valorant/CS:GO",
+      description: "Starte die Woche mit actionreichen FPS-Spielen!",
       isLive: false
     },
     {
-      day: "Wednesday",
-      time: "7:00 PM - 10:00 PM",
-      title: "RPG Wednesday: Elder Scrolls/Fallout",
-      description: "Dive into immersive role-playing adventures.",
+      day: "Mittwoch",
+      time: "19:00 - 22:00 Uhr",
+      title: "RPG Mittwoch: Elder Scrolls/Fallout",
+      description: "Tauche ein in immersive Rollenspiel-Abenteuer.",
       isLive: true
     },
     {
-      day: "Friday",
-      time: "9:00 PM - 1:00 AM",
-      title: "Friday Night Gaming: Various Games",
-      description: "End the week with a variety of games and chill vibes.",
+      day: "Freitag",
+      time: "21:00 - 01:00 Uhr",
+      title: "Freitag Nacht Gaming: Verschiedene Spiele",
+      description: "Beende die Woche mit einer Vielzahl von Spielen und entspannter Atmosphäre.",
       isLive: false
     },
     {
-      day: "Saturday",
-      time: "3:00 PM - 7:00 PM",
-      title: "Community Day: Games with Viewers",
-      description: "Playing games and interacting with community members.",
+      day: "Samstag",
+      time: "15:00 - 19:00 Uhr",
+      title: "Community-Tag: Spiele mit Zuschauern",
+      description: "Spielen und interagieren mit Community-Mitgliedern.",
       isLive: false
     },
     {
-      day: "Sunday",
-      time: "5:00 PM - 8:00 PM",
-      title: "Strategy Sunday: RTS & 4X Games",
-      description: "Strategic gameplay and thoughtful decision-making.",
+      day: "Sonntag",
+      time: "17:00 - 20:00 Uhr",
+      title: "Strategie-Sonntag: RTS & 4X Spiele",
+      description: "Strategisches Gameplay und durchdachte Entscheidungsfindung.",
       isLive: false
     }
   ];
@@ -49,9 +49,9 @@ const Schedule = () => {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Stream Schedule</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Stream-Zeitplan</h1>
             <p className="text-muted-foreground mb-8 text-lg">
-              Check when I'll be live and what content to expect. All times are in Central European Time (CET).
+              Schau nach, wann ich live sein werde und welche Inhalte dich erwarten. Alle Zeiten sind in Mitteleuropäischer Zeit (MEZ).
             </p>
             
             <div className="space-y-4 mb-12">
@@ -70,30 +70,30 @@ const Schedule = () => {
             <div className="bg-card rounded-lg p-6 border border-border">
               <h2 className="text-xl font-bold mb-4 flex items-center">
                 <Calendar className="mr-2 h-5 w-5 text-twitch" />
-                Special Events & Streams
+                Besondere Events & Streams
               </h2>
               <p className="text-muted-foreground mb-6">
-                Besides my regular schedule, I occasionally host special events, charity streams, and collab sessions with other content creators. Make sure to follow me on social media to stay updated!
+                Neben meinem regulären Zeitplan veranstalte ich gelegentlich spezielle Events, Charity-Streams und Kollaborationen mit anderen Content-Erstellern. Folge mir auf Social Media, um auf dem Laufenden zu bleiben!
               </p>
               <div className="bg-muted/30 rounded-lg p-4">
-                <h3 className="font-semibold mb-2">Upcoming Special Event:</h3>
+                <h3 className="font-semibold mb-2">Kommendes Spezial-Event:</h3>
                 <p className="text-muted-foreground mb-2">
-                  <span className="font-medium">12-Hour Charity Stream</span> - April 15th, 2023 | 12:00 PM - 12:00 AM
+                  <span className="font-medium">12-Stunden Charity-Stream</span> - 15. April 2023 | 12:00 - 00:00 Uhr
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  Supporting mental health awareness with a variety of games, special guests, and amazing giveaways!
+                  Unterstützung des Bewusstseins für psychische Gesundheit mit einer Vielzahl von Spielen, besonderen Gästen und tollen Verlosungen!
                 </p>
               </div>
             </div>
             
             <div className="mt-12 text-center">
-              <h2 className="text-2xl font-bold mb-4">Never Miss a Stream!</h2>
+              <h2 className="text-2xl font-bold mb-4">Verpasse keinen Stream!</h2>
               <p className="text-muted-foreground mb-6">
-                Follow me on Twitch and turn on notifications to get alerted when I go live.
+                Folge mir auf Twitch und aktiviere Benachrichtigungen, um informiert zu werden, wenn ich live gehe.
               </p>
               <Button size="lg" className="bg-twitch hover:bg-twitch-dark">
                 <Bell className="mr-2 h-5 w-5" />
-                Get Notified
+                Benachrichtigungen aktivieren
               </Button>
             </div>
           </div>

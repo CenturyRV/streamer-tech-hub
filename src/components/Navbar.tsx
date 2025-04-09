@@ -23,16 +23,16 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
             <Link to="/" className="text-foreground/80 hover:text-foreground transition-colors">
-              Home
+              Startseite
             </Link>
             <Link to="/about" className="text-foreground/80 hover:text-foreground transition-colors">
-              About
+              Über mich
             </Link>
             <Link to="/setup" className="text-foreground/80 hover:text-foreground transition-colors">
               Setup
             </Link>
             <Link to="/schedule" className="text-foreground/80 hover:text-foreground transition-colors">
-              Schedule
+              Zeitplan
             </Link>
             <a 
               href="https://twitch.tv" 
@@ -42,7 +42,7 @@ const Navbar = () => {
             >
               <Button className="bg-twitch hover:bg-twitch-dark">
                 <Twitch className="mr-2 h-4 w-4" />
-                Watch Live
+                Live zusehen
               </Button>
             </a>
           </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <button 
             onClick={toggleMenu} 
             className="md:hidden text-foreground"
-            aria-label="Toggle menu"
+            aria-label="Menü umschalten"
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -65,14 +65,14 @@ const Navbar = () => {
               className="block text-foreground/80 hover:text-foreground py-2 transition-colors"
               onClick={toggleMenu}
             >
-              Home
+              Startseite
             </Link>
             <Link 
               to="/about" 
               className="block text-foreground/80 hover:text-foreground py-2 transition-colors"
               onClick={toggleMenu}
             >
-              About
+              Über mich
             </Link>
             <Link 
               to="/setup" 
@@ -86,7 +86,7 @@ const Navbar = () => {
               className="block text-foreground/80 hover:text-foreground py-2 transition-colors"
               onClick={toggleMenu}
             >
-              Schedule
+              Zeitplan
             </Link>
             <a 
               href="https://twitch.tv" 
@@ -97,7 +97,7 @@ const Navbar = () => {
             >
               <Button className="w-full bg-twitch hover:bg-twitch-dark">
                 <Twitch className="mr-2 h-4 w-4" />
-                Watch Live
+                Live zusehen
               </Button>
             </a>
           </div>

@@ -7,7 +7,7 @@ const Setup = () => {
   const pcParts = [
     {
       title: "CPU",
-      description: "AMD Ryzen 9 5900X 12-Core Processor",
+      description: "AMD Ryzen 9 5900X 12-Kern Prozessor",
       imageSrc: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -26,23 +26,23 @@ const Setup = () => {
       imageSrc: "https://images.unsplash.com/photo-1541029071515-d09b89b0d383?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "Storage",
+      title: "Speicher",
       description: "1TB Samsung 980 Pro NVMe SSD + 2TB Samsung 870 QVO SSD",
       imageSrc: "https://images.unsplash.com/photo-1600348712459-d11d7a7c464c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "CPU Cooler",
-      description: "NZXT Kraken X73 360mm AIO Liquid Cooler",
+      title: "CPU Kühler",
+      description: "NZXT Kraken X73 360mm AIO Flüssigkeitskühler",
       imageSrc: "https://images.unsplash.com/photo-1587202372583-49330a15584d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "Case",
+      title: "Gehäuse",
       description: "Lian Li PC-O11 Dynamic XL",
       imageSrc: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "Power Supply",
-      description: "Corsair RM850x 850W 80+ Gold Certified",
+      title: "Netzteil",
+      description: "Corsair RM850x 850W 80+ Gold Zertifiziert",
       imageSrc: "https://images.unsplash.com/photo-1591488320449-011701e649e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     }
   ];
@@ -50,13 +50,13 @@ const Setup = () => {
   // Streaming gear data
   const streamingGear = [
     {
-      title: "Microphone",
-      description: "Shure SM7B Cardioid Dynamic Microphone",
+      title: "Mikrofon",
+      description: "Shure SM7B Cardioid Dynamisches Mikrofon",
       imageSrc: "https://images.unsplash.com/photo-1583745041008-a2536f66f6f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "Camera",
-      description: "Sony Alpha a6400 Mirrorless Camera",
+      title: "Kamera",
+      description: "Sony Alpha a6400 Spiegellose Kamera",
       imageSrc: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -65,7 +65,7 @@ const Setup = () => {
       imageSrc: "https://images.unsplash.com/photo-1598653222000-6b7b7a552625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "Lighting",
+      title: "Beleuchtung",
       description: "Elgato Key Light Air (2x)",
       imageSrc: "https://images.unsplash.com/photo-1533049300-15801f3ede75?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     }
@@ -74,12 +74,12 @@ const Setup = () => {
   // Peripherals data
   const peripherals = [
     {
-      title: "Keyboard",
-      description: "Custom Mechanical Keyboard with Gateron Switches",
+      title: "Tastatur",
+      description: "Benutzerdefinierte mechanische Tastatur mit Gateron Switches",
       imageSrc: "https://images.unsplash.com/photo-1563191911-e65f8893f1c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "Mouse",
+      title: "Maus",
       description: "Logitech G Pro X Superlight Wireless",
       imageSrc: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
@@ -100,16 +100,16 @@ const Setup = () => {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">My Streaming Setup</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Mein Streaming-Setup</h1>
             <p className="text-muted-foreground mb-12 text-lg">
-              Here's all the hardware I use to create my content and stream at the highest quality.
+              Hier ist die gesamte Hardware, die ich verwende, um meine Inhalte zu erstellen und in höchster Qualität zu streamen.
             </p>
             
             {/* PC Showcase */}
             <div className="mb-16">
               <div className="flex items-center mb-8">
                 <div className="h-1 w-16 bg-twitch"></div>
-                <h2 className="text-2xl font-bold mx-4">PC Components</h2>
+                <h2 className="text-2xl font-bold mx-4">PC-Komponenten</h2>
                 <div className="h-1 flex-grow bg-twitch/20"></div>
               </div>
               
@@ -129,7 +129,7 @@ const Setup = () => {
             <div className="mb-16">
               <div className="flex items-center mb-8">
                 <div className="h-1 w-16 bg-twitch"></div>
-                <h2 className="text-2xl font-bold mx-4">Streaming Gear</h2>
+                <h2 className="text-2xl font-bold mx-4">Streaming-Ausrüstung</h2>
                 <div className="h-1 flex-grow bg-twitch/20"></div>
               </div>
               
@@ -149,7 +149,7 @@ const Setup = () => {
             <div>
               <div className="flex items-center mb-8">
                 <div className="h-1 w-16 bg-twitch"></div>
-                <h2 className="text-2xl font-bold mx-4">Peripherals</h2>
+                <h2 className="text-2xl font-bold mx-4">Peripheriegeräte</h2>
                 <div className="h-1 flex-grow bg-twitch/20"></div>
               </div>
               
@@ -167,16 +167,16 @@ const Setup = () => {
             
             {/* Setup Image */}
             <div className="mt-16">
-              <h2 className="text-2xl font-bold mb-6">My Streaming Environment</h2>
+              <h2 className="text-2xl font-bold mb-6">Meine Streaming-Umgebung</h2>
               <div className="aspect-video rounded-lg overflow-hidden bg-muted">
                 <img 
                   src="https://images.unsplash.com/photo-1598550473359-387936a64d3c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                  alt="Complete Setup" 
+                  alt="Komplettes Setup" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <p className="text-muted-foreground mt-4 text-center">
-                My complete streaming setup - where all the magic happens!
+                Mein komplettes Streaming-Setup - hier passiert der ganze Zauber!
               </p>
             </div>
           </div>

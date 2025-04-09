@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold text-gradient">StreamerHub</h2>
-            <p className="text-muted-foreground mt-2">Streaming quality content since 2023</p>
+            <p className="text-muted-foreground mt-2">Streame qualitativ hochwertige Inhalte seit 2023</p>
           </div>
           
           <div className="flex flex-col items-center md:items-end">
@@ -50,7 +50,7 @@ const Footer = () => {
                 <Instagram className="h-6 w-6" />
               </a>
             </div>
-            <p className="text-muted-foreground text-sm">© 2023 StreamerHub. All rights reserved.</p>
+            <p className="text-muted-foreground text-sm">© 2023 StreamerHub. Alle Rechte vorbehalten.</p>
           </div>
         </div>
       </div>
