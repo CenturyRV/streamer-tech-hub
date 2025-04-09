@@ -4,7 +4,7 @@ import PcPartCard from "@/components/PcPartCard";
 import { Cpu, Monitor, HardDrive, MemoryStick, Fan, Box, Power, Mic, Camera, Headphones, Keyboard, Mouse } from "lucide-react";
 
 const Setup = () => {
-  // Updated PC parts data with user's specific hardware
+  // Updated PC parts data with user's specific hardware and better matching images
   const pcParts = [
     {
       title: "CPU",
@@ -23,7 +23,7 @@ const Setup = () => {
     {
       title: "Motherboard",
       description: "ASRock Pro RS Wifi AMD B850 So.AM5",
-      imageSrc: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-twitch">
         <rect x="4" y="4" width="16" height="16" rx="2" />
         <rect x="9" y="9" width="6" height="6" />
@@ -36,47 +36,47 @@ const Setup = () => {
     {
       title: "RAM",
       description: "64GB (4x16GB) Corsair Vengeance RGB DDR5",
-      imageSrc: "https://images.unsplash.com/photo-1562976540-1502c2145186?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <MemoryStick className="h-8 w-8 text-twitch" />
     },
     {
       title: "Speicher",
       description: "4TB Crucial P3 Plus M.2",
-      imageSrc: "https://images.unsplash.com/photo-1517500913938-5f57b5f5efbf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1600348712459-d188d958b179?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <HardDrive className="h-8 w-8 text-twitch" />
     },
     {
       title: "CPU Kühler",
       description: "Corsair iCUE H150i",
-      imageSrc: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1624733713742-f9c826a4e4a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Fan className="h-8 w-8 text-twitch" />
     },
     {
       title: "Gehäuse",
       description: "Lian Li",
-      imageSrc: "https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1587202372866-9e0392a533da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Box className="h-8 w-8 text-twitch" />
     },
     {
       title: "Netzteil",
       description: "1000 Watt Asus ROG-STRIX-1000P-GAMING",
-      imageSrc: "https://images.unsplash.com/photo-1624913503273-5f9c4e980dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1600348248547-74d75c0838bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Power className="h-8 w-8 text-twitch" />
     },
     {
       title: "Fans",
       description: "Corsair iCUE QL120 RGB x9",
-      imageSrc: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1587202372583-49314e68370f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Fan className="h-8 w-8 text-twitch" />
     }
   ];
 
-  // Updated streaming gear data
+  // Updated streaming gear data with better matching images
   const streamingGear = [
     {
       title: "Mikrofon",
       description: "Shure SM7B",
-      imageSrc: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Mic className="h-8 w-8 text-twitch" />
     },
     {
@@ -88,7 +88,7 @@ const Setup = () => {
     {
       title: "Mixer",
       description: "TC Helicon GoXLR",
-      imageSrc: "https://images.unsplash.com/photo-1563330232-57114bb0823c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-twitch">
         <path d="M2 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4" />
         <rect x="2" y="10" width="8" height="8" rx="2" />
@@ -101,7 +101,7 @@ const Setup = () => {
     {
       title: "Mikrofonhalterung",
       description: "LogiLink AA0127",
-      imageSrc: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1598335624134-5bceb5de202b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-twitch">
         <path d="M12 2v8" />
         <path d="m4.93 10.93 1.41 1.41" />
@@ -115,7 +115,7 @@ const Setup = () => {
     }
   ];
 
-  // Updated peripherals data
+  // Updated peripherals data with better matching images
   const peripherals = [
     {
       title: "Tastatur",
@@ -132,41 +132,41 @@ const Setup = () => {
     {
       title: "Headset",
       description: "Beyerdynamic 990 Pro",
-      imageSrc: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1618066375782-18f24cb89a92?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Headphones className="h-8 w-8 text-twitch" />
     },
     {
       title: "Maus Bungee",
       description: "BenQ ZOWIE Camade",
-      imageSrc: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1563297006-0cc581eb2e67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Mouse className="h-8 w-8 text-twitch" />
     }
   ];
   
-  // Monitor data
+  // Updated monitor data with better matching images
   const monitors = [
     {
       title: "Monitor 1",
       description: "MSI Optix G241 144hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1616763355548-1b606f439f86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1616763355603-b54325c66834?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 2",
       description: "BenQ ZOWIE 144hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1616763355548-1b606f439f86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1494173853739-c21f58b16055?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 3",
       description: "Asus VS248HR 60hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1616763355548-1b606f439f86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 4",
       description: "BenQ GW2480 60hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1616763355548-1b606f439f86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     }
   ];
