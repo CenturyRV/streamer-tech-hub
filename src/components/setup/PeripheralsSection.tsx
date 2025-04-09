@@ -10,25 +10,25 @@ const PeripheralsSection: React.FC = () => {
     {
       title: "Tastatur",
       description: "SteelSeries Apex 7",
-      imageSrc: "https://images.unsplash.com/photo-1595225476071-63e356e1b710?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://media.steelseriescdn.com/thumbs/catalogue/products/01079-apex-7/bf16dcd993364ab593ddd2c4b31be0f3.png.500x400_q100_crop-fit_optimize.png",
       icon: <Keyboard className="h-8 w-8 text-twitch" />
     },
     {
       title: "Maus",
       description: "SteelSeries Aerox 5",
-      imageSrc: "https://images.unsplash.com/photo-1618499890638-3f8466d3a5e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://media.steelseriescdn.com/thumbs/catalogue/products/01610-aerox-5/f5664568af824e2186b160c47c2aeb40.png.500x400_q100_crop-fit_optimize.png",
       icon: <Mouse className="h-8 w-8 text-twitch" />
     },
     {
       title: "Headset",
       description: "Beyerdynamic 990 Pro",
-      imageSrc: "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://www.beyerdynamic.de/media/catalog/product/cache/77884763962f6cd9ba4fea7fe03d0612/d/t/dt_990_pro_1_2.jpg",
       icon: <Headphones className="h-8 w-8 text-twitch" />
     },
     {
       title: "Maus Bungee",
       description: "BenQ ZOWIE Camade",
-      imageSrc: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://zowie.benq.com/content/dam/game/en/product/accessory/camade-ii/camade-II-xl-side.png",
       icon: <Mouse className="h-8 w-8 text-twitch" />
     }
   ];

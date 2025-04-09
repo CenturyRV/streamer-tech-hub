@@ -10,19 +10,19 @@ const StreamingGearSection: React.FC = () => {
     {
       title: "Mikrofon",
       description: "Shure SM7B",
-      imageSrc: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://www.shure.com/assets/2/7/sm7b_top_h_gray_1140.jpg",
       icon: <Mic className="h-8 w-8 text-twitch" />
     },
     {
       title: "Kamera",
       description: "Sony Alpha 6400 & Sigma 16mm Objektiv",
-      imageSrc: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://www.sony.de/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=1014&bgcolor=FFFFFF&bgc=FFFFFF",
       icon: <Camera className="h-8 w-8 text-twitch" />
     },
     {
       title: "Mixer",
       description: "TC Helicon GoXLR",
-      imageSrc: "https://images.unsplash.com/photo-1524046960467-28e47dfa9e5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://www.tc-helicon.com/dw/image/v2/AAYQ_PRD/on/demandware.static/-/Sites-tchelicon-master-catalog/default/dw3d31ce7c/images/tchelicon/p0cqk_front_l.jpg",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-twitch">
         <path d="M2 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4" />
         <rect x="2" y="10" width="8" height="8" rx="2" />
@@ -35,7 +35,7 @@ const StreamingGearSection: React.FC = () => {
     {
       title: "Mikrofonhalterung",
       description: "LogiLink AA0127",
-      imageSrc: "https://images.unsplash.com/photo-1621619076104-18dd04880836?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://www.logilink.com/media/image/thumbnail/AA0127_7_720x600.jpg",
       icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-twitch">
         <path d="M12 2v8" />
         <path d="m4.93 10.93 1.41 1.41" />

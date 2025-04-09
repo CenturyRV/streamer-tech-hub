@@ -10,25 +10,25 @@ const MonitorsSection: React.FC = () => {
     {
       title: "Monitor 1",
       description: "MSI Optix G241 144hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1527443060795-0402a18106c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://asset.msi.com/resize/image/global/product/product_16099774086233ca3057cb04cc7d3cee9e6dfa7a8c.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 2",
       description: "BenQ ZOWIE 144hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1596443686812-2f45229eebc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://www.benq.com/content/dam/b2c/en/monitors/zowie/xl2411k/gallery/xl2411k-g1-side.jpg",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 3",
       description: "Asus VS248HR 60hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1619953942547-233eab5a70d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://dlcdnwebimgs.asus.com/gain/E77577E4-9B29-40B7-B0F6-C45DB05B9243/w717/h525",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     },
     {
       title: "Monitor 4",
       description: "BenQ GW2480 60hz | 24 Zoll",
-      imageSrc: "https://images.unsplash.com/photo-1586776977607-310e9c725c37?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      imageSrc: "https://www.benq.com/content/dam/b2c/en/monitors/gw/gw2480/product-gallery/GW2480-65-F-B-02.jpg",
       icon: <Monitor className="h-8 w-8 text-twitch" />
     }
   ];
