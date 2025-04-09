@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <Twitch className="h-6 w-6 text-twitch" />
-            <span className="text-xl font-bold text-gradient">StreamerHub</span>
+            <span className="text-xl font-bold text-gradient">Rqze</span>
           </Link>
 
           {/* Desktop Navigation */}
