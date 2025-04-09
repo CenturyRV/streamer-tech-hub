@@ -38,7 +38,9 @@ const Footer = () => {
                 className="text-foreground/70 hover:text-indigo-500 transition-colors"
                 aria-label="Discord"
               >
-                <MessageSquare className="h-6 w-6" />
+                <div className="relative flex items-center justify-center bg-indigo-500 rounded-md w-6 h-6 text-white">
+                  <MessageSquare className="h-4 w-4 absolute" />
+                </div>
               </a>
               <a 
                 href="https://instagram.com" 
