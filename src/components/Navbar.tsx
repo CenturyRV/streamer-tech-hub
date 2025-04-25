@@ -25,9 +25,6 @@ const Navbar = () => {
             <Link to="/" className="text-foreground/80 hover:text-foreground transition-colors">
               Startseite
             </Link>
-            <Link to="/about" className="text-foreground/80 hover:text-foreground transition-colors">
-              Über mich
-            </Link>
             <Link to="/setup" className="text-foreground/80 hover:text-foreground transition-colors">
               Setup
             </Link>
@@ -65,13 +62,6 @@ const Navbar = () => {
               Startseite
             </Link>
             <Link 
-              to="/about" 
-              className="block text-foreground/80 hover:text-foreground py-2 transition-colors"
-              onClick={toggleMenu}
-            >
-              Über mich
-            </Link>
-            <Link 
               to="/setup" 
               className="block text-foreground/80 hover:text-foreground py-2 transition-colors"
               onClick={toggleMenu}
@@ -98,3 +88,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
