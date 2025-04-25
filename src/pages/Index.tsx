@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Twitch } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -95,13 +94,13 @@ const Index = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Neueste Streams</h2>
-          <div className="aspect-video w-full max-w-4xl mx-auto bg-muted rounded-lg overflow-hidden">
-          <iframe
-    src="https://player.twitch.tv/?channel=rqze&parent=localhost&parent=rqze.de"
+          <div className="aspect-video w-full mx-auto bg-muted rounded-lg overflow-hidden">
+            <iframe
+              src="https://player.twitch.tv/?channel=rqze&parent=localhost&parent=rqze.de"
               height="100%"
               width="100%"
-    allowfullscreen>
-          </iframe>
+              allowfullscreen>
+            </iframe>
           </div>
           <div className="mt-8 text-center">
             <a 
