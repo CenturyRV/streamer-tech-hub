@@ -96,9 +96,12 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Neueste Streams</h2>
           <div className="aspect-video w-full max-w-4xl mx-auto bg-muted rounded-lg overflow-hidden">
-            <div className="w-full h-full flex items-center justify-center">
-              <p className="text-muted-foreground">Hier wäre ein Twitch-Stream eingebunden</p>
-            </div>
+            <iframe
+              src="https://player.twitch.tv/?channel=rqze&parent=localhost"
+              height="100%"
+              width="100%"
+              allowFullScreen
+            />
           </div>
           <div className="mt-8 text-center">
             <a 
