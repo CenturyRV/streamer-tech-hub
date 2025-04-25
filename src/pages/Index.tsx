@@ -97,7 +97,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-8 text-center">Neueste Streams</h2>
           <div className="aspect-video w-full max-w-4xl mx-auto bg-muted rounded-lg overflow-hidden">
             <iframe
-              src="https://player.twitch.tv/?channel=rqze&parent=localhost"
+              src="https://player.twitch.tv/?channel=rqze"
               height="100%"
               width="100%"
               allowFullScreen
