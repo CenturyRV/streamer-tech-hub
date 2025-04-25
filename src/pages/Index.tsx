@@ -90,7 +90,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Latest Streams */}
+      {/* Latest Streams Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Neueste Streams</h2>
@@ -99,7 +99,8 @@ const Index = () => {
               src="https://player.twitch.tv/?channel=rqze&parent=localhost&parent=rqze.de"
               height="100%"
               width="100%"
-              allowfullscreen>
+              allowFullScreen
+            >
             </iframe>
           </div>
           <div className="mt-8 text-center">
