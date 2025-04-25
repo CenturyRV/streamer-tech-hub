@@ -29,9 +29,9 @@ const Index = () => {
                   Live zusehen
                 </Button>
               </a>
-              <Link to="/about">
+              <Link to="/setup">
                 <Button size="lg" variant="outline">
-                  Über mich
+                  Setup
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
